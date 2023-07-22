@@ -1,84 +1,63 @@
 <!DOCTYPE html>
-
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="Pagina de prueba google" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-        <header>
-            <div class="parte superior">
-                <div class="div-gmail">
-                    <a class="gmail" href="https://mail.google.com/mail/u/0/">Gmail</a>
-                </div>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="Pagina de prueba google" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+</head>
 
-                <div class="div-imagenes">
-                    <a class="imagenes" href="https://www.google.com.ar/imghp?hl=es&ogbl">Imagenes</a>
-                 </div>
-            </div>
-        </header>
+<body>
+    <header>
+        <!-- Siempre que haya una navegacion, hacemos un nav y dentro los enlaces directamente -->
+        <nav class="parte-superior">
+            <a class="gmail" href="https://mail.google.com/mail/u/0/">Gmail</a>
+            <a class="imagenes" href="https://www.google.com.ar/imghp?hl=es&ogbl">Imagenes</a>
+        </nav>
+    </header>
 
-        <section>
-            <div class="google-logo">
-                <img class="imagen google" src="https://1000marcas.net/wp-content/uploads/2020/02/logo-Google.png" height="92" width="225">
-            </div>
-        </section>
+    <section>
+        <div class="google-logo">
+            <img class="imagen-google" src="https://1000marcas.net/wp-content/uploads/2020/02/logo-Google.png" width="225" />
+        </div>
+        <!-- Siempre que haya un elemento de tipo input, debe ser contenido por un elemento form -->
+        <form action="">
+            <input type="search" />
+            <input type="submit" value="Buscar con Google" />
+            <input type="button" value="Voy a tener suerte" />
+        </form>
 
-        <section>
-            <input type="search">
-            <input type="submit" value="Buscar con Google">
-            <input type="submit" value="Voy a tener suerte">
-        </section>
+        <div class="region">
+            <p>
+                Ofrecido por Google en:
+                <a href="https://google.com">Español (Latinoamérica)</a>
+            </p>
+        </div>
+    </section>
 
-        <section>
-            <div class="region">
-                <p>Ofrecido por Google en: <a href="https://google.com">Español (Latinoamérica)</a></p>
-            </div>
-        </section>
+    <footer>
+        <div class="pais">
+            <p>Argentina</p>
+        </div>
 
+        <div>
+            <nav>
+                <a href="https://about.google/?utm_source=google-AR&utm_medium=referral&utm_campaign=hp-footer&fg=1">Sobre
+                    Google</a>
+                <a href="https://www.google.com/intl/es_ar/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicidad</a>
+                <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Negocios</a>
+                <a href="https://google.com/search/howsearchworks/?fg=1">Cómo funciona la Búsqueda</a>
+            </nav>
+    
+            <nav class="privacidad">
+                <a href="https://policies.google.com/privacy?hl=es-AR&fg=1">Privacidad</a>
+                <a href="https://policies.google.com/terms?hl=es-AR&fg=1">Condiciones</a>
+                <a href="">Preferencias</a>
+            </nav>
+        </div>
+    </footer>
+</body>
 
-        <section>
-            <div class="pais">
-                <p>Argentina</p>
-            </div>
-        </section>
-
-        <section>
-            <div class="acerca-google">
-                <p><a href="https://about.google/?utm_source=google-AR&utm_medium=referral&utm_campaign=hp-footer&fg=1">Sobre Google</a></p>
-            </div>
-
-            <div class="publicidad">
-                <p><a href="https://www.google.com/intl/es_ar/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicidad</a></p>
-            </div> 
-
-            <div class="negocios">
-                <p><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Negocios</a></p>
-            </div>
-
-            <div class="funcion-busqueda">
-                <p><a href="https://google.com/search/howsearchworks/?fg=1">Cómo funciona la Búsqueda</a></p>
-            </div>
-
-            <div class="privacidad">
-                <p><a href="https://policies.google.com/privacy?hl=es-AR&fg=1">Privacidad</a></p>
-            </div>
-
-            <div class="condiciones">
-                <p><a href="https://policies.google.com/terms?hl=es-AR&fg=1">Condiciones</a></p>
-            </div>
-            
-            <div class="preferencias">
-                <p><a href="">Preferencias</a></p>
-            </div>
-
-
-        </section>
-
-        
-    </body>
 </html>
