@@ -1,6 +1,11 @@
 .parte-superior{
     text-align: right;
-    display: inline-block;
+    display: flex;
     width: 100%;
-    padding: 10px 10px 12px 0px;
+    justify-content: flex-end;
+    align-items: stretch;
+    flex-direction: row;
+    gap: 20px;
     }
+    /*display: inline-block*/
+    /*padding: 10px 10px 12px 0px;
