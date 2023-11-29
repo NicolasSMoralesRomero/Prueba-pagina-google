@@ -7,3 +7,23 @@
     flex-direction: row;
     gap: 20px;
     }
+
+.pais{
+    text-align: left;
+}
+
+.navbar-footer{
+    text-align: left;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    }
+
+.privacidad{
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px
+    }
+
+
